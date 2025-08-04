@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dev-portfolio/static/css/main.d7f15ddb.css",
+    "main.js": "/dev-portfolio/static/js/main.20f5be22.js",
+    "static/media/Raja N.jpg": "/dev-portfolio/static/media/Raja N.df59088e7dd5e9a74e2d.jpg",
+    "static/media/javascript.svg": "/dev-portfolio/static/media/javascript.953dadb2de5e0766cb931cec905fb8d3.svg",
+    "static/media/CSS-3.svg": "/dev-portfolio/static/media/CSS-3.0e233ed3643ae056daee456bf9842f2c.svg",
+    "static/media/react-js.svg": "/dev-portfolio/static/media/react-js.5ddf17fca417310796d277efe45b3950.svg",
+    "static/media/whatsapp.svg": "/dev-portfolio/static/media/whatsapp.f2883296e5f8c40374f487bfc522416c.svg",
+    "static/media/html-5.svg": "/dev-portfolio/static/media/html-5.68aec4b8c525605bada5f2896b2e1607.svg",
+    "static/media/github.svg": "/dev-portfolio/static/media/github.adb057e9b81365542cdfd2327c007aa2.svg",
+    "static/media/instagram.svg": "/dev-portfolio/static/media/instagram.8ff7ce92ad753b591ed4c1d03e84c026.svg",
+    "index.html": "/dev-portfolio/index.html",
+    "static/media/linkedin.svg": "/dev-portfolio/static/media/linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
+    "main.d7f15ddb.css.map": "/dev-portfolio/static/css/main.d7f15ddb.css.map",
+    "main.20f5be22.js.map": "/dev-portfolio/static/js/main.20f5be22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7f15ddb.css",
+    "static/js/main.20f5be22.js"
+  ]
+}
