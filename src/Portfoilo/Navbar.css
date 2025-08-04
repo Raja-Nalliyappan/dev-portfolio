@@ -1,0 +1,127 @@
+.main-header{
+    background-color: #393E46;
+    box-shadow: 2px 5px 7px black;
+    width: 90%;
+    max-width: 1200px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 1000;
+    white-space: nowrap;
+    border-radius: 0px 0px 5px 5px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.nav-list li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 5px 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-list li a::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+.nav-list li a:hover::after{
+    width: 80%;
+}
+.nav-bar-img-list {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar-img-list li a img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-bar-img-list li a:hover img {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 2%;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .nav-bar-img-list {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 20px;
+  }
+
+  .nav-list li a {
+    font-size: 16px;
+  }
+
+  .nav-bar-img-list li a img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-list {
+    gap: 10px;
+  }
+
+  .nav-list li a {
+    font-size: 14px;
+  }
+
+  .nav-bar-img-list li a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .main-header {
+    padding: 1rem;
+  }
+}
