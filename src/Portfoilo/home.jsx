@@ -20,7 +20,7 @@ export const Home =()=>{
                     <a href="#">Let's get started</a>
                 </div>
                 <div className="main-parent-img">
-                    <img src={rajaIco} alt="raja" width="230px" height="350px"/>
+                    {/* <img src={rajaIco} alt="raja" width="230px" height="350px"/> */}
                 </div>
             </div>
         </main>
