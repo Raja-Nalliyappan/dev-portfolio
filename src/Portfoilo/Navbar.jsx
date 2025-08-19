@@ -23,8 +23,8 @@ export const Navbar =()=>{
                         <ul className="nav-bar-img-list">
                             <li><a href="#" target='_blank' rel='oopener noreferrer'><img src={instagramIcon} alt="instagram" width="35" height="35"/></a></li>
                             <li><a href="#" target='_blank' rel='oopener noreferrer'><img src={linkedinIcon} alt="linkedin" width="35" height="35"/></a></li>
-                            <li><a href="#" target='_blank' rel='oopener noreferrer'><img src={githubIcon} alt="" width="35" height="35"/></a></li>
-                            <li><a href="#" target='_blank' rel='oopener noreferrer'><img src={whatsappIcon} alt="" width="31" height="31" style={{marginBottom:"2px"}}/></a></li>
+                            <li><a href="https://github.com/Raja-Nalliyappan" target='_blank' rel='oopener noreferrer'><img src={githubIcon} alt="" width="35" height="35"/></a></li>
+                            <li><a href="https://wa.me/9626945746?text=Hello%20I%20saw%20your%20portfolio!" target='_blank' rel='oopener noreferrer'><img src={whatsappIcon} alt="" width="31" height="31" style={{marginBottom:"2px"}}/></a></li>
                         </ul>
                     </nav>
                 </div>
