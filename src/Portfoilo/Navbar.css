@@ -7,7 +7,7 @@ header {
 }
 .main-header {
     background-color: #393E46;
-    width: 1200px;
+    width: 90%;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 100px;
 }
 .nav-list li a{
     position: relative;
