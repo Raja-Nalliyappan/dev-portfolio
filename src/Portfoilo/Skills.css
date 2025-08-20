@@ -5,7 +5,7 @@
   overflow: hidden;
   margin: auto;
   position: absolute;
-  top: 30%;
+  top: 45%;
 }
 
 .skill-list {
@@ -40,4 +40,11 @@
   100%{
     transform: rotate(360deg);
   }
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
