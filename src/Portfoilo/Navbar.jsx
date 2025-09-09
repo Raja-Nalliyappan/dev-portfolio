@@ -25,8 +25,8 @@ export const Navbar =()=>{
                         <ul className="nav-list">
                             <li><NavLink to="/home" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Home</NavLink></li>
                             <li><NavLink to="/experience" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Experience</NavLink></li>
-                            <li><NavLink to="/projects" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Projects</NavLink></li>
-                            <li><NavLink to="/recentwork" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Recent work</NavLink></li>
+                            {/* <li><NavLink to="/projects" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Projects</NavLink></li> */}
+                            {/* <li><NavLink to="/recentwork" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Recent work</NavLink></li> */}
                             <li><NavLink to="/skills" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Skills</NavLink></li>
                         </ul>
                     </nav>

@@ -1,27 +1,25 @@
-/* Footer */
-.footer-parent {
-    width: 90%;
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-    box-sizing: border-box;
-    border-top: 1px solid white;
-}
-.footer-parent p{
-    color: lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7px;
+footer {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  box-sizing: border-box;
+  border-top: 1px solid white;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
+.footer-parent p {
+  color: lightgrey;
+  margin: 0;
+  text-align: center;
+}
 
 
 
 
 
-/* Tablet devices (768px and below) */
+
 @media (max-width: 768px) {
   .footer-parent {
     padding: 12px;
@@ -34,7 +32,8 @@
   }
 }
 
-/* Mobile devices (480px and below) */
+
+
 @media (max-width: 480px) {
   .footer-parent {
     padding: 10px;

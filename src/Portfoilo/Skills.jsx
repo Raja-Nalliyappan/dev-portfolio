@@ -12,21 +12,27 @@ export const Skills = ()=>{
     useEffect(()=>{
         document.body.style.backgroundColor="black"
     })
-    return(
-        <>
-        <Navbar />
-            <h1 style={{color:"white", display:"flex", justifyContent:"center", alignItems:"center", margin:"20px", fontFamily: "system-ui, sans-serif"}}>Development skills</h1>
-            <p style={{color:"white", display:"flex", justifyContent:"center", alignItems:"center", margin:"20px", }}>Full Stack .NET Developer skilled in ASP.NET Core, Web API, React.js, and SQL Server with strong OOPs and problem-solving skills.</p>
-            <div className="skill-scroll-wrapper">
-                <div className="skill-list">
-                    <img src={html} alt="html" />
-                    <img src={css} alt="css" />
-                    <img src={js} alt="js" />
-                    <img src={react} alt="react" className="react-logo"/>
-                    <img src={csharo} alt="CSharp"/>
-                </div>
-            </div>
-        <Footer />
-        </>
-    )
+      return (
+    <div className="skills-page">
+      <Navbar />
+      <div className="skills-content">
+        <h1 style={{ color: "white", margin: "20px", fontFamily: "system-ui, sans-serif" }}>
+          Development skills
+        </h1>
+        <p className="typewriter">
+          Full Stack .NET Developer skilled in ASP.NET Core, Web API, React.js, and SQL Server with strong OOPs and problem-solving skills.
+        </p>
+        <div className="skill-scroll-wrapper">
+          <div className="skill-list">
+            <img src={html} alt="html" />
+            <img src={css} alt="css" />
+            <img src={js} alt="js" />
+            <img src={react} alt="react" className="react-logo" />
+            <img src={csharo} alt="CSharp" />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
 }
