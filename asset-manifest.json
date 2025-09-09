@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.ad427246.css",
-    "main.js": "/dev-portfolio/static/js/main.1ba42352.js",
+    "main.css": "/dev-portfolio/static/css/main.a2f691c7.css",
+    "main.js": "/dev-portfolio/static/js/main.3c406aba.js",
     "static/media/Raja N.jpg": "/dev-portfolio/static/media/Raja N.df59088e7dd5e9a74e2d.jpg",
+    "static/media/qa.webp": "/dev-portfolio/static/media/qa.b939c01bc2866d950ab1.webp",
+    "static/media/qc.webp": "/dev-portfolio/static/media/qc.ae7f49decbe067c4677a.webp",
     "static/media/javascript.svg": "/dev-portfolio/static/media/javascript.953dadb2de5e0766cb931cec905fb8d3.svg",
     "static/media/CSS-3.svg": "/dev-portfolio/static/media/CSS-3.0e233ed3643ae056daee456bf9842f2c.svg",
     "static/media/react-js.svg": "/dev-portfolio/static/media/react-js.5ddf17fca417310796d277efe45b3950.svg",
@@ -13,11 +15,11 @@
     "static/media/Csharp.svg": "/dev-portfolio/static/media/Csharp.34f27bd2557256bc3fa4953bcf4314b6.svg",
     "index.html": "/dev-portfolio/index.html",
     "static/media/linkedin.svg": "/dev-portfolio/static/media/linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
-    "main.ad427246.css.map": "/dev-portfolio/static/css/main.ad427246.css.map",
-    "main.1ba42352.js.map": "/dev-portfolio/static/js/main.1ba42352.js.map"
+    "main.a2f691c7.css.map": "/dev-portfolio/static/css/main.a2f691c7.css.map",
+    "main.3c406aba.js.map": "/dev-portfolio/static/js/main.3c406aba.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad427246.css",
-    "static/js/main.1ba42352.js"
+    "static/css/main.a2f691c7.css",
+    "static/js/main.3c406aba.js"
   ]
 }
