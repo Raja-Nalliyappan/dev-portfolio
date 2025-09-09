@@ -21,7 +21,7 @@ h2 {
   margin-top: 20px;
 }
 
-button {
+.notfoundHomePage {
   opacity: 70%;
   font-size: 15px;
   background-color: black;
@@ -35,7 +35,7 @@ button {
   border-radius: 8px;
   width: 200px;
 }
-button:hover{
+.notfoundHomePage:hover {
   cursor: pointer;
   border: 1px solid;
   scale: 1.1;

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import  styles from"./Notfound.module.css"
+import  notfoundStyles from"./Notfound.module.css"
 import { useNavigate } from "react-router-dom";
 
 export const Notfound = () => {
@@ -16,7 +16,7 @@ export const Notfound = () => {
   return (
     <>
       <div style={{ display: 'inline-flex' }}>
-        <div className={styles.para}>
+        <div className={notfoundStyles.para}>
           <header>
             <h2>404.</h2>
           </header>
@@ -25,7 +25,7 @@ export const Notfound = () => {
             Don't worry, sometimes even we make mistakes. You can find plenty of
             other things on our homepage.
           </p>
-          <button onClick={goHome}> Back to Homepage</button>
+          <button className={notfoundStyles.notfoundHomePage} onClick={goHome}> Back to Homepage</button>
         </div>
       </div>
     </>
