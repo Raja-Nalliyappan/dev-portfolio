@@ -65,7 +65,7 @@
   font-size: 1rem;
   color: #ccc;
   margin-bottom: 25px;
-  /* text-align: justify; */
+  text-align: justify;
 }
 
 /* Links */
@@ -190,12 +190,12 @@
 
   /* Right image full width */
   .project-img {
-    width: 100%;
+    width: 90%;
     margin: 0 0 20px 0;
   }
 
   .project-img img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 
