@@ -53,7 +53,6 @@ export const Experience = () => {
             <li>Handled client communication for XBRL tagging clarifications and updates, and performed detailed &#8220;Quality checks &#40;QC&#41;&#8221; on instance documents to ensure compliance with taxonomy, accuracy, and regulatory standards.</li>
             <li>Taking on additional responsibility for handling the internal test file process, and handling queries from clients through email, chats, and phone calls.</li>
             <li>Worked closely with clients to prepare and validate XBRL and iXBRL reports to identify and resolved data inconsistencies within XBRL filings, ensuring compliance with SEC regulations."</li>
-            <li>Prepared and validated XBRL/iXBRL reports maintaining EFM rules and SEC validations.</li>
             <li>Performed quality checks on XBRL instance documents including block text and Level 4 footnotes.</li>
           </ul>
         </div>
