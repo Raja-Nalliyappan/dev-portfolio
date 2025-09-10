@@ -14,7 +14,6 @@ export const Experience = () => {
 
     const today = new Date();
     const options = {month:"short",year:"numeric"}
-    const year = today.getFullYear();
     const todayDate =  today.toLocaleDateString("en-US", options);
         
   return (
@@ -31,11 +30,14 @@ export const Experience = () => {
           <h3>Financial Associate</h3>
           <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
           <h4>Chennai</h4>
-          <p className="duration">July 2022 – Dec 2023</p>
+          <p className="duration">July 2022 &ndash; Dec 2023</p>
           <ul className="description">
-            <li>Worked extensively with XBRL financial reporting.</li>
-            <li>Analyzed financial statements ensuring compliance with regulatory standards.</li>
-            <li>Validated financial reports for accuracy in data tagging and taxonomy mapping.</li>
+            <li>Analyzing the financial status of corporate companies in general.</li>
+            <li>Analyzed complex financial statements in XBRL format to identify trends and facilitate investor decision-making.</li>
+            <li>Handled SEC filings &#40;10-K, 11-K, 10-Q, 20-F, 6-K, S-1, S-4, POS AM, 8-K, F1, F-4&#41; for investment companies like Mutual Funds using XBRL tools &#40;CompSci, EasyView, Xverify&#41;.</li>
+            <li>Familiar with XBRL-enabled reporting platforms and data analysis tools by GO XBRL Unifiye and compsci tools.</li>
+            <li>Assessing companies for filing their quarterly and annual reports as per SEC regulatory compliance, requirements, and norms.</li>
+            <li>Performed compliance reviews of financial reports submitted in XBRL format</li>
           </ul>
         </div>
 
@@ -45,10 +47,12 @@ export const Experience = () => {
           <h3>Financial Analyst - QC</h3>
           <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
           <h4>Chennai</h4>
-          <p className="duration">Jan 2024 – Aug 2024</p>
+          <p className="duration">Jan 2024 &ndash; Aug 2024</p>
           <ul className="description">
-            <li>Handled SEC filings (10-K, 11-K, 10-Q, 20-F, 6-K, S-1, S-4, POS AM, 8-K, F1, F-4) for investment companies like Mutual Funds using XBRL tools (CompSci, EasyView, Xverify).</li>
-            <li>Mapped financial data accurately to US GAAP, IFRS, and multiple taxonomies ensuring compliance.</li>
+            <li>Maintaining accurate reporting by handling corporate files, mutual funds, and VIP projects in accordance with accounting standards such as US GAAP, IFRS, CEF, ECD, OEF, RR, and VIP taxonomies.</li>
+            <li>Handled client communication for XBRL tagging clarifications and updates, and performed detailed &#8220;Quality checks &#40;QC&#41;&#8221; on instance documents to ensure compliance with taxonomy, accuracy, and regulatory standards.</li>
+            <li>Taking on additional responsibility for handling the internal test file process, and handling queries from clients through email, chats, and phone calls.</li>
+            <li>Worked closely with clients to prepare and validate XBRL and iXBRL reports to identify and resolved data inconsistencies within XBRL filings, ensuring compliance with SEC regulations."</li>
             <li>Prepared and validated XBRL/iXBRL reports maintaining EFM rules and SEC validations.</li>
             <li>Performed quality checks on XBRL instance documents including block text and Level 4 footnotes.</li>
           </ul>
@@ -60,7 +64,7 @@ export const Experience = () => {
           <h3>Manual Tester - QA</h3>
           <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
           <h4>Chennai</h4>
-          <p className="duration">Sep 2024 – {todayDate} &#40;present&#41;</p>
+          <p className="duration">Sep 2024 &ndash; {todayDate} &#40;present&#41;</p>
           <ul className="description">
             <li>Performed manual testing for web-based financial applications.</li>
             <li>Prepared test summary reports and provided UAT support.</li>
@@ -70,7 +74,6 @@ export const Experience = () => {
             <li>Performed retesting and closure validation on fixed bugs.</li>
           </ul>
         </div>
-
       </div>
     </div>
     <Footer />
