@@ -79,3 +79,26 @@ body, html {
   from { width: 0; }
   to { width: 109ch; }
 }
+
+
+.tech-icons {
+  display: flex;
+  gap: 15px;       /* space **between** the icons */
+  align-items: center;
+  flex-wrap: wrap; /* optional, for responsiveness */
+}
+
+.tech-img {
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
+  /* margin can be added here if you want extra space outside this image */
+}
+
+.tech-svg {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 114px;
+  height: 114px;
+  /* margin can be added here as well */
+}
