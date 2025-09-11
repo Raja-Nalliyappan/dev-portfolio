@@ -27,6 +27,7 @@ export const Projects = () => {
               "This project automates the process of cleaning iXBRL documents by removing all iXBRL-specific tags while preserving the underlying HTML content.",
               "It converts complex iXBRL reports into clean, readable HTML files that are easier to work with for reporting and analysis.",
               "The solution ensures data integrity while simplifying the HTML structure, making it suitable for further processing or web presentation.",
+               "It's a one-stop place to understand my journey as a developer."
             ],
       demo: "https://raja-nalliyappan.github.io/XBRL---iXBRL-Covert",
       code: "https://github.com/Raja-Nalliyappan/XBRL---iXBRL-Covert.git",
@@ -44,8 +45,11 @@ export const Projects = () => {
   return (
     <>
     <Navbar />
+
+    <h2 className="projects-section-heading">My Testing Projects</h2>
+
     <section className="projects-section">
-      <h2>My Testing Projects</h2>
+      
 
       {projectList.map((project, index) => (
         <div className="project-card" key={index}>
