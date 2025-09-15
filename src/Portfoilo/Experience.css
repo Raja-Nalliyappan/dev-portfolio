@@ -23,7 +23,6 @@
   margin: 0 auto;
 }
 
-/* Modern glass-effect card */
 .experience-card {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
@@ -68,7 +67,6 @@
   margin-bottom: 10px;
 }
 
-/* Scroll animation */
 .experience-card {
   opacity: 0;
   transform: translateY(50px);

@@ -54,8 +54,6 @@ main {
 }
 
 
-/*Loader*/
-/* Initial hidden state */
 .main-parent-1 h1,
 .main-parent-1 h3,
 .main-parent-1 p,
@@ -66,7 +64,6 @@ main {
   animation: fadeInUp 0.8s ease forwards;
 }
 
-/* Staggered delays */
 .main-parent-1 h1 { animation-delay: 0.2s; }
 .main-parent-1 h3 { animation-delay: 0.4s; }
 .main-parent-1 p  { animation-delay: 0.6s; }
