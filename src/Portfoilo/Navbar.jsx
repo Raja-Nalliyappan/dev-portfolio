@@ -4,6 +4,7 @@ import githubIcon from '../assets/github.svg';
 import whatsappIcon from '../assets/whatsapp.svg';
 import { NavLink } from 'react-router-dom';
 import download from '../assets/download.png'
+import { HashLink } from 'react-router-hash-link';
 import "./Navbar.css"
 
 export const Navbar =()=>{
@@ -14,10 +15,17 @@ export const Navbar =()=>{
                 <div className='main-header'>
                     <nav className="navbar-card">
                         <ul className="nav-list">
-                            <li><NavLink to="/home" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Home</NavLink></li>
-                            <li><NavLink to="/experience" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Experience</NavLink></li>
-                            <li><NavLink to="/projects" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Projects</NavLink></li>
-                            <li><NavLink to="/skills" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Skills</NavLink></li>
+
+                            {/* Navbar Active Color Change */}
+                            {/* <li><NavLink to="/home" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Home</NavLink></li> */}
+                            {/* <li><NavLink to="#/experience" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Experience</NavLink></li> */}
+                            {/* <li><NavLink to="/projects" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Projects</NavLink></li> */}
+                            {/* <li><NavLink to="/skills" style={({isActive})=>isActive?{backgroundColor:"#829ecaff",borderRadius:"10px"}:{color:"white"}}>Skills</NavLink></li> */}
+
+                            <li><HashLink smooth to="#">Home</HashLink></li>
+                            <li><HashLink smooth to="/#experience">Experience</HashLink></li>   
+                            <li><HashLink smooth to="/#projects">Projects</HashLink></li>  
+                            <li><HashLink smooth to="/#skills">Skills</HashLink></li>                      
                         </ul>
                     </nav>
                     <nav className="navbar-img">

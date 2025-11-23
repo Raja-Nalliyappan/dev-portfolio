@@ -1,5 +1,5 @@
 {
-  "homepage": "https://raja-nalliyappan.github.io/dev-portfolio",
+  "homepage": "https://raja-nalliyappan.github.io/raja-portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.7.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },

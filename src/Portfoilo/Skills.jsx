@@ -14,7 +14,7 @@ export const Skills = ()=>{
     })
       return (
     <div className="skills-page">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="skills-content">
         <h1 style={{ color: "white", margin: "20px", fontFamily: "system-ui, sans-serif" }}>
           Development skills
@@ -109,7 +109,7 @@ export const Skills = ()=>{
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

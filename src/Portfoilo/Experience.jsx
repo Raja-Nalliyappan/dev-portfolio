@@ -18,7 +18,7 @@ export const Experience = () => {
         
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     <div className="experience-container">
       <h2 className="section-title">My Work Experience</h2>
 
@@ -75,7 +75,7 @@ export const Experience = () => {
         </div>
       </div>
     </div>
-    <Footer />
+    {/* <Footer /> */}
     </>
   );
 };

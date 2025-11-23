@@ -44,7 +44,7 @@ export const Projects = () => {
 
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
 
     <h2 className="projects-section-heading">My Testing Projects</h2>
 
@@ -80,7 +80,7 @@ export const Projects = () => {
         </div>
       ))}
     </section>
-    <Footer />
+    {/* <Footer /> */}
     </>
   );
 };

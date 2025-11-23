@@ -1,8 +1,11 @@
 import rajaIcon from '../assets/Raja N.jpg';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
+import {Experience} from './Experience';
+import {Projects} from './Projects';
 import "./home.css"
 import { useEffect } from 'react';
+import { Skills } from './Skills';
 
 export const Home = () => {
     useEffect(() => {
@@ -11,8 +14,11 @@ export const Home = () => {
 
     return (
         <>
+        <section>
             <div className="home-container">
-                <Navbar />
+                <section id="home">
+                    <Navbar />
+                </section>
                 <main>
                     <div className="main-parent">
                         <div className="main-parent-1">
@@ -32,8 +38,24 @@ export const Home = () => {
                         </div>
                     </div>
                 </main>
+                </div>
+            </section>
+
+            <section id="experience">
+                 <Experience />
+            </section>
+
+            <section id="projects">
+                <Projects />
+            </section>
+
+            <section id="skills">
+                <Skills />
+            </section>
+
+            <section>
                 <Footer />
-            </div>
+            </section>
         </>
     )
 }

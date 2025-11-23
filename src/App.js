@@ -12,11 +12,11 @@ function App() {
         <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />  
-            <Route path="/home" element={<Home />} />
-            <Route path="/experience" element={<Experience />}/>
-            <Route path="/skills" element={<Skills />}/>
-            <Route path="/projects" element={<Projects />} />
-            <Route path="*" element={<Notfound />} />  
+            {/* <Route path="/home" element={<Home />} /> */}
+            {/* <Route path="/experience" element={<Experience />}/> */}
+            {/* <Route path="/skills" element={<Skills />}/> */}
+            {/* <Route path="/projects" element={<Projects />} /> */}
+            {/* <Route path="*" element={<Notfound />} />   */}
           </Routes>
         </HashRouter>
       </div>
